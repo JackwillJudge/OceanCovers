@@ -1,38 +1,79 @@
-.App {
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+p {
+  font-family: montserrat, sans-serif;
+  font-weight: 200;
+}
+
+h3 {
+  font-family: montserrat, sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+}
+
+li {
+  font-family: montserrat, sans-serif;
+  margin-bottom: 10px;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.addressText {
+  margin: 0;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.galleryContainer {
+  position: relative;
+  margin-top: 40px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.galleryImg {
+  width: 100%;
+  height: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.galleryBtn {
+  font-family: montserrat, sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: 3px solid white;
   color: white;
+  font-size: 20px;
+  padding: 10px 50px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+.galleryBtn:hover {
+  background-color: white;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h4 {
+  text-align: center;
+  font-family: montserrat, sans-serif;
+}
+
+.servicesBtn {
+  background-color: transparent;
+  border: 3px black solid;
+  font-family: montserrat, sans-serif;
+  margin-top: 40px;
+  padding: 5px 20px;
+}
+
+.servicesBtn:hover {
+    background-color: black;
+    color: white;
 }
