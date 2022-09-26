@@ -15,6 +15,11 @@ h2 {
   font-weight: bold;
 }
 
+h1 {
+  font-family: montserrat, sans-serif;
+  font-weight: bold;
+}
+
 li {
   font-family: montserrat, sans-serif;
   margin-bottom: 10px;
@@ -49,7 +54,7 @@ hr {
   background-color: transparent;
   border: 3px solid white;
   color: white;
-  font-size: 20px;
+  font-size: 1.25rem;
   padding: 10px 50px;
   cursor: pointer;
   border-radius: 5px;
@@ -74,6 +79,80 @@ h4 {
 }
 
 .servicesBtn:hover {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+}
+
+.blueHeader {
+  background-color: #52b0db;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.headerTitle {
+  color: white;
+}
+
+.coversWrapper {
+  max-width: 90%;
+}
+
+.coversContent {
+  background-color: lightgray;
+  justify-content: center;
+  margin-bottom: 2rem;
+  display: flex;
+}
+
+.servicesContent {
+  margin-bottom: 2rem;
+}
+
+.imageWrapper {
+  margin: 0 auto;
+  width: 650px;
+}
+
+.imageWrapper > img {
+  float: left;
+  width: 45%;
+  margin: 1.66%;
+}
+
+.servicesText {
+  font-family: montserrat, sans-serif;
+  font-size: 1.25rem;
+  font-style: bold;
+}
+
+.subtitle {
+  font-family: montserrat, sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 800px) {
+  .imageWrapper {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .imageWrapper {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .imageWrapper {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.regularProducts {
+  max-width: 80%;
+  margin: auto;
 }
