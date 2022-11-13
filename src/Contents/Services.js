@@ -1,9 +1,18 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import coverOne from "../Contents/images/coversOne.jpg";
-import coverTwo from "../Contents/images/coversTwo.jpg";
-import coverThree from "../Contents/images/coversThree.jpg";
-import coverFour from "../Contents/images/coversFour.jpg";
+import coverOne from "../Contents/images/servicesImages/coversOne.jpg";
+import coverTwo from "../Contents/images/servicesImages/coversTwo.jpg";
+import coverThree from "../Contents/images/servicesImages/coversThree.jpg";
+import coverFour from "../Contents/images/servicesImages/coversFour.jpg";
+import Hero2 from "../Contents/images/homeImages/Hero2.jpg";
+import upholstery1 from "../Contents/images/servicesImages/upholstery1.jpg";
+import upholstery2 from "../Contents/images/servicesImages/upholstery2.jpg";
+import upholstery3 from "../Contents/images/servicesImages/upholstery3.jpg";
+import upholstery4 from "../Contents/images/servicesImages/upholstery4.jpg";
+import auto1 from "../Contents/images/servicesImages/auto1.jpg";
+import auto2 from "../Contents/images/servicesImages/auto2.jpg";
+import carpet1 from "../Contents/images/servicesImages/carpet1.jpg";
+import carpet2 from "../Contents/images/servicesImages/carpet2.jpg";
 
 const Services = () => {
   return (
@@ -38,7 +47,7 @@ const Services = () => {
           <div className="coversContent">
             <div className="coversWrapper">
               <Row>
-                <Col sm={12} md={6} style={{ marginTop: "30px" }}>
+                <Col sm={12} md={12} lg={6} style={{ marginTop: "30px" }}>
                   <p className="servicesText">
                     - Ocean Covers & Upholstery manufactures and repairs all
                     marine coverwork. Our covers are custom made to your
@@ -57,12 +66,12 @@ const Services = () => {
                     all of which are suitable for the marine environment.
                   </p>
                 </Col>
-                <Col sm={12} md={6}>
+                <Col sm={12} md={12} lg={6}>
                   <div className="imageWrapper">
-                    <img src={coverOne} />
-                    <img src={coverTwo} />
-                    <img src={coverFour} />
-                    <img src={coverThree} />
+                    <img alt="cover one" src={coverOne} />
+                    <img alt="cover two" src={coverTwo} />
+                    <img alt="cover three" src={coverFour} />
+                    <img alt="cover four" src={coverThree} />
                   </div>
                 </Col>
               </Row>
@@ -127,7 +136,7 @@ const Services = () => {
         <div className="coversContent">
           <div className="coversWrapper">
             <Row>
-              <Col sm={12} md={6} style={{ marginTop: "30px" }}>
+              <Col sm={12} md={12} lg={6} style={{ marginTop: "30px" }}>
                 <p className="servicesText">
                   - Ocean Covers & Upholstery manufactures and recovers all
                   marine upholstery.
@@ -150,12 +159,12 @@ const Services = () => {
                   and exterior.
                 </p>
               </Col>
-              <Col sm={12} md={6}>
+              <Col sm={12} md={12} lg={6}>
                 <div className="imageWrapper">
-                  <img src={coverOne} />
-                  <img src={coverTwo} />
-                  <img src={coverFour} />
-                  <img src={coverThree} />
+                  <img alt="upholstery one" src={upholstery4} />
+                  <img alt="upholstery two" src={upholstery1} />
+                  <img alt="upholstery three" src={upholstery2} />
+                  <img alt="upholstery four" src={upholstery3} />
                 </div>
               </Col>
             </Row>
@@ -203,8 +212,8 @@ const Services = () => {
               </Col>
               <Col sm={12} md={6}>
                 <div className="imageWrapper">
-                  <img src={coverOne} />
-                  <img src={coverTwo} />
+                  <img alt="automotive one" src={auto1} />
+                  <img alt="automotive two" src={auto2} />
                 </div>
               </Col>
             </Row>
@@ -234,7 +243,7 @@ const Services = () => {
       </div>
 
       {/* Carpets and Linings */}
-      {/* <div>
+      <div>
         <div className="blueHeader">
           <Row>
             <Col sm={12} md={6}>
@@ -254,8 +263,8 @@ const Services = () => {
               </Col>
               <Col sm={12} md={6}>
                 <div className="imageWrapper">
-                  <img src={coverOne} />
-                  <img src={coverTwo} />
+                  <img alt="carpet one" src={carpet1} />
+                  <img alt="carpet two" src={carpet2} />
                 </div>
               </Col>
             </Row>
@@ -280,7 +289,14 @@ const Services = () => {
             </Col>
           </Row>
         </div>
-      </div> */}
+      </div>
+
+      <div className="galleryContainer">
+        <img alt="gallery" className="galleryImg" src={Hero2}></img>
+        <a href="/gallery">
+          <button className="galleryBtn">Gallery</button>
+        </a>
+      </div>
     </div>
   );
 };

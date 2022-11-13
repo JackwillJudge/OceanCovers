@@ -36,7 +36,7 @@ hr {
 
 .galleryContainer {
   position: relative;
-  margin-top: 40px;
+  margin-top: 2.5rem;
 }
 
 .galleryImg {
@@ -55,7 +55,7 @@ hr {
   border: 3px solid white;
   color: white;
   font-size: 1.25rem;
-  padding: 10px 50px;
+  padding: 0.6rem 3rem;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -75,7 +75,8 @@ h4 {
   border: 3px black solid;
   font-family: montserrat, sans-serif;
   margin-top: 40px;
-  padding: 5px 20px;
+  padding: 0.6rem 1.9rem;
+  color: black;
 }
 
 .servicesBtn:hover {
@@ -98,7 +99,7 @@ h4 {
 }
 
 .coversContent {
-  background-color: lightgray;
+  background-color: #e5e4e2;
   justify-content: center;
   margin-bottom: 2rem;
   display: flex;
@@ -155,4 +156,42 @@ h4 {
 .regularProducts {
   max-width: 80%;
   margin: auto;
+}
+
+.homeBtn {
+  background-color: transparent;
+  border: 3px black solid;
+  color: black;
+  font-size: 20px;
+  font-family: montserrat, sans-serif;
+  margin-top: 40px;
+  padding: 10px 45px;
+  margin-bottom: 25px;
+}
+
+.homeBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.navItem {
+  font-family: montserrat, sans-serif;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.formRow {
+  margin-bottom: 0.5rem;
+}
+
+.contactContainer {
+  margin: auto;
+  width: 40%;
+}
+
+@media only screen and (max-width: 800px) {
+  .contactContainer {
+    margin: auto;
+    width: 80%;
+  }
 }
