@@ -2,6 +2,8 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import ImageGallery from "react-image-gallery";
 import "react-image-gallery/styles/css/image-gallery.css";
+import galleryCoversFront1 from "../Contents/images/galleryImages/covers/galleryCoversFront1.jpg"
+import galleryCoversFront2 from "../Contents/images/galleryImages/covers/galleryCoversFront2.jpg"
 import galleryCovers1 from "../Contents/images/galleryImages/covers/galleryCovers1.jpg";
 import galleryCovers2 from "../Contents/images/galleryImages/covers/galleryCovers2.jpg";
 import galleryCovers3 from "../Contents/images/galleryImages/covers/galleryCovers3.jpg";
@@ -26,6 +28,12 @@ import galleryCovers21 from "../Contents/images/galleryImages/covers/galleryCove
 import galleryCovers22 from "../Contents/images/galleryImages/covers/galleryCovers22.jpg";
 import galleryCovers23 from "../Contents/images/galleryImages/covers/galleryCovers23.jpg";
 import galleryCovers24 from "../Contents/images/galleryImages/covers/galleryCovers24.jpg";
+import galleryCovers25 from "../Contents/images/galleryImages/covers/galleryCovers25.jpg";
+import galleryCovers26 from "../Contents/images/galleryImages/covers/galleryCovers26.jpg";
+import galleryCovers27 from "../Contents/images/galleryImages/covers/galleryCovers27.jpg";
+import galleryCovers28 from "../Contents/images/galleryImages/covers/galleryCovers28.jpg";
+import galleryCovers29 from "../Contents/images/galleryImages/covers/galleryCovers29.jpg";
+import galleryCovers30 from "../Contents/images/galleryImages/covers/galleryCovers30.jpg";
 import galleryUpholstery1 from "../Contents/images/galleryImages/upholstery/galleryUpholstery1.jpg";
 import galleryUpholstery2 from "../Contents/images/galleryImages/upholstery/galleryUpholstery2.jpg";
 import galleryUpholstery3 from "../Contents/images/galleryImages/upholstery/galleryUpholstery3.jpg";
@@ -44,7 +52,14 @@ import galleryUpholstery15 from "../Contents/images/galleryImages/upholstery/gal
 import galleryUpholstery16 from "../Contents/images/galleryImages/upholstery/galleryUpholstery16.jpg";
 import galleryUpholstery17 from "../Contents/images/galleryImages/upholstery/galleryUpholstery17.jpg";
 import galleryUpholstery18 from "../Contents/images/galleryImages/upholstery/galleryUpholstery18.jpg";
-import galleryUpholstery19 from "../Contents/images/galleryImages/upholstery/galleryUpholstery19.jpg";
+import galleryUpholstery20 from "../Contents/images/galleryImages/upholstery/galleryUpholstery20.jpg";
+import galleryUpholstery21 from "../Contents/images/galleryImages/upholstery/galleryUpholstery21.jpg";
+import galleryUpholstery22 from "../Contents/images/galleryImages/upholstery/galleryUpholstery22.jpg";
+import galleryUpholstery23 from "../Contents/images/galleryImages/upholstery/galleryUpholstery23.jpg";
+
+
+
+
 
 import other1 from "../Contents/images/galleryImages/other/other1.jpg";
 import other2 from "../Contents/images/galleryImages/other/other2.jpg";
@@ -53,6 +68,14 @@ import other4 from "../Contents/images/galleryImages/other/other4.jpg";
 
 const Gallery = () => {
   const coverImages = [
+    {
+      original: galleryCoversFront1,
+      thumbnail: galleryCoversFront1,
+    },
+    {
+      original: galleryCoversFront2,
+      thumbnail: galleryCoversFront2,
+    },
     {
       original: galleryCovers22,
       thumbnail: galleryCovers22,
@@ -149,6 +172,30 @@ const Gallery = () => {
       original: galleryCovers24,
       thumbnail: galleryCovers24,
     },
+    {
+      original: galleryCovers25,
+      thumbnail: galleryCovers25,
+    },
+    {
+      original: galleryCovers26,
+      thumbnail: galleryCovers26,
+    },
+    {
+      original: galleryCovers27,
+      thumbnail: galleryCovers27,
+    },
+    {
+      original: galleryCovers28,
+      thumbnail: galleryCovers28,
+    },
+    {
+      original: galleryCovers29,
+      thumbnail: galleryCovers29,
+    },
+    {
+      original: galleryCovers30,
+      thumbnail: galleryCovers30,
+    },
   ];
 
   const upholsteryImages = [
@@ -225,8 +272,20 @@ const Gallery = () => {
       thumbnail: galleryUpholstery18,
     },
     {
-      original: galleryUpholstery19,
-      thumbnail: galleryUpholstery19,
+      original: galleryUpholstery20,
+      thumbnail: galleryUpholstery20,
+    },
+    {
+      original: galleryUpholstery21,
+      thumbnail: galleryUpholstery21,
+    },
+    {
+      original: galleryUpholstery22,
+      thumbnail: galleryUpholstery22,
+    },
+    {
+      original: galleryUpholstery23,
+      thumbnail: galleryUpholstery23,
     },
   ];
 

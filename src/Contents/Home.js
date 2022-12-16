@@ -4,14 +4,17 @@ import { Container, Carousel, Row, Col } from "react-bootstrap";
 import Hero1 from "../Contents/images/homeImages/Hero1.jpg";
 import Hero2 from "../Contents/images/homeImages/Hero2.jpg";
 import Hero3 from "../Contents/images/homeImages/Hero3.jpg";
-import Hero4 from "../Contents/images/homeImages/Hero4.jpg";
-import Hero5 from "../Contents/images/homeImages/Hero5.jpg";
+// import Hero4 from "../Contents/images/homeImages/Hero4.jpg";
+// import Hero5 from "../Contents/images/homeImages/Hero5.jpg";
 import Hero6 from "../Contents/images/homeImages/Hero6.jpg";
 import Square1 from "../Contents/images/homeImages/Square1.jpg";
 import Square2 from "../Contents/images/homeImages/Square2.jpg";
 import Square3 from "../Contents/images/homeImages/Square3.jpg";
 import Square4 from "../Contents/images/homeImages/Square4.jpg";
 import Square5 from "../Contents/images/homeImages/Square5.jpg";
+import SlideNew1 from "../Contents/images/homeImages/SlideNew1.jpg"
+import SlideNew2 from "../Contents/images/homeImages/SlideNew2.jpg"
+
 
 import GoogleMaps from "simple-react-google-maps";
 
@@ -29,10 +32,10 @@ const Home = () => {
           <img className="d-block w-100" src={Hero3} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={Hero4} alt="Fourth slide" />
+          <img className="d-block w-100" src={SlideNew1} alt="Fourth slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={Hero5} alt="Fith slide" />
+          <img className="d-block w-100" src={SlideNew2} alt="Fith slide" />
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={Hero6} alt="Sixth slide" />
@@ -87,7 +90,7 @@ const Home = () => {
         </p>
         <p className="text-center">
           Ocean Covers & Upholstery has been established on the North Shore for
-          over 20 years <br /> and have an experienced team to deliver excellent
+          over 30 years <br /> and have an experienced team to deliver excellent
           quality and craftsmanship for your project.
         </p>
       </Container>
@@ -121,7 +124,7 @@ const Home = () => {
                     Residential and commercial shade solutions including
                     cafe-style drop clears
                   </li>
-                  <li>Tarpaulin hire</li>
+                  <li>Diamond Stitched upholstery and repairs </li>
                 </ul>
               </Col>
             </Row>

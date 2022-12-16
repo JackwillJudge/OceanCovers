@@ -1,5 +1,9 @@
 import React from "react";
-import { Container, Button } from "react-bootstrap";
+import { Container, Button, Row, Col } from "react-bootstrap";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone, faLocationDot } from '@fortawesome/free-solid-svg-icons'
+
+
 
 const Contact = () => {
   return (
@@ -18,6 +22,12 @@ const Contact = () => {
           Contact Us
         </h1>
       </Container>
+      
+      <div className="text-center">
+        <p><FontAwesomeIcon icon={faPhone} style={{marginRight:"10px"}}/>09 475 5535</p>
+        <p><FontAwesomeIcon icon={faLocationDot} style={{marginRight:"10px"}}/>10G Vega Place, Rosedale, Auckland</p>
+      </div>
+
       <div className="contactContainer">
         <form
           target="_blank"
@@ -64,6 +74,7 @@ const Contact = () => {
           </Button>
         </form>
       </div>
+
     </div>
   );
 };

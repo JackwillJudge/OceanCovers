@@ -137,6 +137,8 @@ const Services = () => {
           <div className="coversWrapper">
             <Row>
               <Col sm={12} md={12} lg={6} style={{ marginTop: "30px" }}>
+                <p clanss="servicesText">We offer a refurbishment service, recovering existing and old upholstery to modernise and refresh your boat.</p>
+                <br/>
                 <p className="servicesText">
                   - Ocean Covers & Upholstery manufactures and recovers all
                   marine upholstery.
