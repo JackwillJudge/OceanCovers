@@ -49,7 +49,7 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
-                  className="form-control"
+                  className="form-control" 
                   placeholder="Email Address"
                   required
                 />
