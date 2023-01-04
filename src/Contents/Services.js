@@ -293,12 +293,12 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="galleryContainer">
+      {/* <div className="galleryContainer">
         <img alt="gallery" className="galleryImg" src={Hero2}></img>
         <a href="/gallery">
           <button className="galleryBtn">Gallery</button>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
