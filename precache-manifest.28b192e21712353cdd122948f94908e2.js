@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "03802f32a841b6ccfdce",
+    "revision": "798fc355371ce7389ac7",
     "url": "/OceanCovers/static/css/main.f8d26df2.chunk.css"
   },
   {
-    "revision": "03802f32a841b6ccfdce",
-    "url": "/OceanCovers/static/js/main.03802f32.chunk.js"
+    "revision": "798fc355371ce7389ac7",
+    "url": "/OceanCovers/static/js/main.798fc355.chunk.js"
   },
   {
     "revision": "079a51e1eca575ceb4bf",
@@ -304,7 +304,7 @@ self.__precacheManifest = [
     "url": "/OceanCovers/static/media/SlideNew2.7cb6415c.jpg"
   },
   {
-    "revision": "a3b2e15c29aac05cb2e2998bf7444670",
+    "revision": "0b55a75116e48b2f4fb6134b6c37d44b",
     "url": "/OceanCovers/index.html"
   }
 ];
