@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/OceanCovers/precache-manifest.697fd3d1fdda09369efadf35cb2c532f.js"
+  "/OceanCovers/precache-manifest.523a3b6dd2afffd95b5171b31eed19e7.js"
 );
 
 workbox.clientsClaim();
