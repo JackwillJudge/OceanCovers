@@ -12,8 +12,8 @@ import Square2 from "../Contents/images/homeImages/Square2.jpg";
 import Square3 from "../Contents/images/homeImages/Square3.jpg";
 import Square4 from "../Contents/images/homeImages/Square4.jpg";
 import Square5 from "../Contents/images/homeImages/Square5.jpg";
-import SlideNew1 from "../Contents/images/homeImages/SlideNew1.jpg"
-import SlideNew2 from "../Contents/images/homeImages/SlideNew2.jpg"
+import slideNew1 from "../Contents/images/homeImages/SlideNew1.jpg"
+import slideNew2 from "../Contents/images/homeImages/SlideNew2.jpg"
 
 
 // import GoogleMaps from "simple-react-google-maps";
@@ -32,10 +32,10 @@ const Home = () => {
           <img className="d-block w-100" src={Hero3} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={SlideNew1} alt="Fourth slide" />
+          <img className="d-block w-100" src={slideNew1} alt="Fourth slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={SlideNew2} alt="Fith slide" />
+          <img className="d-block w-100" src={slideNew2} alt="Fith slide" />
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={Hero6} alt="Sixth slide" />
