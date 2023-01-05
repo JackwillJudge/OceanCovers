@@ -16,7 +16,7 @@ import SlideNew1 from "../Contents/images/homeImages/SlideNew1.jpg"
 import SlideNew2 from "../Contents/images/homeImages/SlideNew2.jpg"
 
 
-import GoogleMaps from "simple-react-google-maps";
+// import GoogleMaps from "simple-react-google-maps";
 
 const Home = () => {
   return (
@@ -132,7 +132,7 @@ const Home = () => {
           <Col md={1}>{""}</Col>
           <Col lg={5} sm={12} className="bg-light">
             <Row>
-              <GoogleMaps
+              {/* <GoogleMaps
                 apiKey={"AIzaSyC8v1fxK-y0gxtAb9Mu_LH8YV9jyZ0k-TE"}
                 style={{
                   height: "300px",
@@ -147,7 +147,7 @@ const Home = () => {
                   lat: -36.748708768563795,
                   lng: 174.72913757116436,
                 }}
-              />
+              /> */}
             </Row>
             <Row>
               <Col sm={12} className="d-flex justify-content-center">
