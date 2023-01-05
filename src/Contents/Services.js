@@ -11,7 +11,7 @@ import upholstery3 from "../Contents/images/servicesImages/upholstery3.jpg";
 import upholstery4 from "../Contents/images/servicesImages/upholstery4.jpg";
 import auto1 from "../Contents/images/servicesImages/auto1.jpg";
 import auto2 from "../Contents/images/servicesImages/auto2.jpg";
-import carpet1 from "../Contents/images/servicesImages/carpet1.jpg";
+// import carpet1 from "../Contents/images/servicesImages/carpet1.jpg";
 // import carpet2 from "../Contents/images/servicesImages/carpet2.jpg";
 
 const Services = () => {
@@ -265,7 +265,7 @@ const Services = () => {
               </Col>
               <Col sm={12} md={6}>
                 <div className="imageWrapper">
-                  <img alt="carpet one" src={carpet1} />
+                  {/* <img alt="carpet one" src={carpet1} /> */}
                   {/* <img alt="carpet two" src={carpet2} /> */}
                 </div>
               </Col>
