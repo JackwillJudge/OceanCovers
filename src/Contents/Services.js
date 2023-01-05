@@ -4,7 +4,7 @@ import coverOne from "../Contents/images/servicesImages/coversOne.jpg";
 import coverTwo from "../Contents/images/servicesImages/coversTwo.jpg";
 import coverThree from "../Contents/images/servicesImages/coversThree.jpg";
 import coverFour from "../Contents/images/servicesImages/coversFour.jpg";
-import Hero2 from "../Contents/images/homeImages/Hero2.jpg";
+// import Hero2 from "../Contents/images/homeImages/Hero2.jpg";
 import upholstery1 from "../Contents/images/servicesImages/upholstery1.jpg";
 import upholstery2 from "../Contents/images/servicesImages/upholstery2.jpg";
 import upholstery3 from "../Contents/images/servicesImages/upholstery3.jpg";
@@ -293,12 +293,12 @@ const Services = () => {
         </div>
       </div>
 
-      <div className="galleryContainer">
+      {/* <div className="galleryContainer">
         <img alt="gallery" className="galleryImg" src={Hero2}></img>
         <a href="/gallery">
           <button className="galleryBtn">Gallery</button>
         </a>
-      </div>
+      </div> */}
     </div>
   );
 };
