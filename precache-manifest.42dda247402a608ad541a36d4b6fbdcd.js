@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "cc74a367465c6fd6207a",
-    "url": "/OceanCovers/static/css/main.2f36835c.chunk.css"
+    "revision": "cba2857525708c1e0300",
+    "url": "/OceanCovers/static/css/main.6fb81d71.chunk.css"
   },
   {
-    "revision": "cc74a367465c6fd6207a",
-    "url": "/OceanCovers/static/js/main.cc74a367.chunk.js"
+    "revision": "cba2857525708c1e0300",
+    "url": "/OceanCovers/static/js/main.cba28575.chunk.js"
   },
   {
-    "revision": "f25715d373fbbf304af5",
-    "url": "/OceanCovers/static/js/1.f25715d3.chunk.js"
+    "revision": "083a92f3bb60d465e079",
+    "url": "/OceanCovers/static/js/1.083a92f3.chunk.js"
   },
   {
-    "revision": "dbcb7ba4fadaee6b6ce0",
-    "url": "/OceanCovers/static/css/2.fe091b71.chunk.css"
+    "revision": "ab7c0fc99c9cb7715e9b",
+    "url": "/OceanCovers/static/css/2.40dfd0ff.chunk.css"
   },
   {
-    "revision": "dbcb7ba4fadaee6b6ce0",
-    "url": "/OceanCovers/static/js/2.dbcb7ba4.chunk.js"
+    "revision": "ab7c0fc99c9cb7715e9b",
+    "url": "/OceanCovers/static/js/2.ab7c0fc9.chunk.js"
   },
   {
-    "revision": "fe65444b756bf7a85b0a",
-    "url": "/OceanCovers/static/js/runtime~main.fe65444b.js"
+    "revision": "8f539056cf24e7a5722a",
+    "url": "/OceanCovers/static/js/runtime~main.8f539056.js"
   },
   {
     "revision": "0e8cc8248564512c3948fc9295e093f6",
@@ -348,11 +348,7 @@ self.__precacheManifest = [
     "url": "/OceanCovers/static/media/carpet1.f2742e6d.jpg"
   },
   {
-    "revision": "25b16d38d967c62fa2ddad3820c8f422",
-    "url": "/OceanCovers/static/media/carpet2.25b16d38.jpg"
-  },
-  {
-    "revision": "ec1a580c9c4071c885aa13cdb035c5d1",
+    "revision": "fd79b4e7ebe78ce9c3d3d2538eb77ec1",
     "url": "/OceanCovers/index.html"
   }
 ];
