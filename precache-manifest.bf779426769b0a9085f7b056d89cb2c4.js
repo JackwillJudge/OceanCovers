@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "54eeb445d4cbb0ffa280",
-    "url": "/OceanCovers/static/css/main.4f7cb978.chunk.css"
+    "revision": "03802f32a841b6ccfdce",
+    "url": "/OceanCovers/static/css/main.f8d26df2.chunk.css"
   },
   {
-    "revision": "54eeb445d4cbb0ffa280",
-    "url": "/OceanCovers/static/js/main.54eeb445.chunk.js"
+    "revision": "03802f32a841b6ccfdce",
+    "url": "/OceanCovers/static/js/main.03802f32.chunk.js"
   },
   {
-    "revision": "ed96c534b8ddb2b7ca90",
-    "url": "/OceanCovers/static/js/1.ed96c534.chunk.js"
+    "revision": "079a51e1eca575ceb4bf",
+    "url": "/OceanCovers/static/js/1.079a51e1.chunk.js"
   },
   {
-    "revision": "fd6e68746ba353686809",
-    "url": "/OceanCovers/static/css/2.23702e7e.chunk.css"
+    "revision": "cfedada9353897ee7de3",
+    "url": "/OceanCovers/static/css/2.0a3fb0f3.chunk.css"
   },
   {
-    "revision": "fd6e68746ba353686809",
-    "url": "/OceanCovers/static/js/2.fd6e6874.chunk.js"
+    "revision": "cfedada9353897ee7de3",
+    "url": "/OceanCovers/static/js/2.cfedada9.chunk.js"
   },
   {
-    "revision": "6ab5b14a8c9773ccf0da",
-    "url": "/OceanCovers/static/js/runtime~main.6ab5b14a.js"
+    "revision": "61c7710c38a09edf12b2",
+    "url": "/OceanCovers/static/js/runtime~main.61c7710c.js"
   },
   {
     "revision": "0e8cc8248564512c3948fc9295e093f6",
@@ -304,47 +304,7 @@ self.__precacheManifest = [
     "url": "/OceanCovers/static/media/SlideNew2.7cb6415c.jpg"
   },
   {
-    "revision": "c7524aaaee62a165bae85210fdbd7ec6",
-    "url": "/OceanCovers/static/media/coversOne.c7524aaa.jpg"
-  },
-  {
-    "revision": "096462f5ba573a3d53842aaa4d685001",
-    "url": "/OceanCovers/static/media/coversTwo.096462f5.jpg"
-  },
-  {
-    "revision": "4395a7952a34000350d8712ac8a2ac3b",
-    "url": "/OceanCovers/static/media/coversThree.4395a795.jpg"
-  },
-  {
-    "revision": "2814d08f3f4cb12ed32ccc235c9d67f8",
-    "url": "/OceanCovers/static/media/coversFour.2814d08f.jpg"
-  },
-  {
-    "revision": "c5208d37286a2585ea926959bc3252b8",
-    "url": "/OceanCovers/static/media/upholstery1.c5208d37.jpg"
-  },
-  {
-    "revision": "4f39191ee432b0566d969695b006fcc2",
-    "url": "/OceanCovers/static/media/upholstery2.4f39191e.jpg"
-  },
-  {
-    "revision": "34e8e0e45b89af2b20e9ca53e41e643e",
-    "url": "/OceanCovers/static/media/upholstery3.34e8e0e4.jpg"
-  },
-  {
-    "revision": "89bb0e37cf5d295361c691fba1d75644",
-    "url": "/OceanCovers/static/media/upholstery4.89bb0e37.jpg"
-  },
-  {
-    "revision": "fe33e02105185951f5ca0888dc459dbd",
-    "url": "/OceanCovers/static/media/auto1.fe33e021.jpg"
-  },
-  {
-    "revision": "5f99e6f66dd8897a3c2da89d4d0f8441",
-    "url": "/OceanCovers/static/media/auto2.5f99e6f6.jpg"
-  },
-  {
-    "revision": "9cb3eaa9cd00329ecf8da6c69d8edbcd",
+    "revision": "a3b2e15c29aac05cb2e2998bf7444670",
     "url": "/OceanCovers/index.html"
   }
 ];
