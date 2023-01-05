@@ -1,23 +1,23 @@
 self.__precacheManifest = [
   {
-    "revision": "75013d6b8d16fafe321b",
+    "revision": "25a0bbe82cd6fbdb4326",
     "url": "/OceanCovers/static/css/main.38fb3f9f.chunk.css"
   },
   {
-    "revision": "75013d6b8d16fafe321b",
-    "url": "/OceanCovers/static/js/main.75013d6b.chunk.js"
+    "revision": "25a0bbe82cd6fbdb4326",
+    "url": "/OceanCovers/static/js/main.25a0bbe8.chunk.js"
   },
   {
     "revision": "c2f76bae2d092c75433e",
     "url": "/OceanCovers/static/js/1.c2f76bae.chunk.js"
   },
   {
-    "revision": "a0db54311f432079ebe2",
+    "revision": "8e2d54ccba015fb3231c",
     "url": "/OceanCovers/static/css/2.7287c300.chunk.css"
   },
   {
-    "revision": "a0db54311f432079ebe2",
-    "url": "/OceanCovers/static/js/2.a0db5431.chunk.js"
+    "revision": "8e2d54ccba015fb3231c",
+    "url": "/OceanCovers/static/js/2.8e2d54cc.chunk.js"
   },
   {
     "revision": "6e911cda6cd960045805",
@@ -352,7 +352,7 @@ self.__precacheManifest = [
     "url": "/OceanCovers/static/media/carpet2.25b16d38.jpg"
   },
   {
-    "revision": "1d9551337a4a1f472473c64d56622ed5",
+    "revision": "63d24b2ccce585bf174c2bad80585e70",
     "url": "/OceanCovers/index.html"
   }
 ];
