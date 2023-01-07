@@ -7,7 +7,6 @@ import Gallery from "./Contents/Gallery";
 import Contact from "./Contents/Contact";
 import { Routes, Route, HashRouter } from "react-router-dom";
 
-
 // import { BrowserRouter as Route, Routes, HashRouter } from "react-router-dom";
 function App() {
   return (
