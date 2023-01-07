@@ -1,12 +1,12 @@
 {
   "main.css": "/OceanCovers/static/css/main.12a1432e.chunk.css",
-  "main.js": "/OceanCovers/static/js/main.cb885c32.chunk.js",
-  "main.js.map": "/OceanCovers/static/js/main.cb885c32.chunk.js.map",
+  "main.js": "/OceanCovers/static/js/main.022afbae.chunk.js",
+  "main.js.map": "/OceanCovers/static/js/main.022afbae.chunk.js.map",
   "static/js/1.05f31764.chunk.js": "/OceanCovers/static/js/1.05f31764.chunk.js",
   "static/js/1.05f31764.chunk.js.map": "/OceanCovers/static/js/1.05f31764.chunk.js.map",
   "static/css/2.9ee9cf74.chunk.css": "/OceanCovers/static/css/2.9ee9cf74.chunk.css",
-  "static/js/2.cedd0978.chunk.js": "/OceanCovers/static/js/2.cedd0978.chunk.js",
-  "static/js/2.cedd0978.chunk.js.map": "/OceanCovers/static/js/2.cedd0978.chunk.js.map",
+  "static/js/2.437666e5.chunk.js": "/OceanCovers/static/js/2.437666e5.chunk.js",
+  "static/js/2.437666e5.chunk.js.map": "/OceanCovers/static/js/2.437666e5.chunk.js.map",
   "runtime~main.js": "/OceanCovers/static/js/runtime~main.b7fe484a.js",
   "runtime~main.js.map": "/OceanCovers/static/js/runtime~main.b7fe484a.js.map",
   "static/media/Hero2.jpg": "/OceanCovers/static/media/Hero2.0e8cc824.jpg",
@@ -36,6 +36,6 @@
   "static/css/main.12a1432e.chunk.css.map": "/OceanCovers/static/css/main.12a1432e.chunk.css.map",
   "static/css/2.9ee9cf74.chunk.css.map": "/OceanCovers/static/css/2.9ee9cf74.chunk.css.map",
   "index.html": "/OceanCovers/index.html",
-  "precache-manifest.850ea78d47eb6ab39e02194be86df520.js": "/OceanCovers/precache-manifest.850ea78d47eb6ab39e02194be86df520.js",
+  "precache-manifest.011202f3ff32906990ca76f834b5d9bc.js": "/OceanCovers/precache-manifest.011202f3ff32906990ca76f834b5d9bc.js",
   "service-worker.js": "/OceanCovers/service-worker.js"
 }
