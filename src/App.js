@@ -5,14 +5,13 @@ import Home from "./Contents/Home";
 import Services from "./Contents/Services";
 import Gallery from "./Contents/Gallery";
 import Contact from "./Contents/Contact";
-import { Routes, Route, HashRouter } from "react-router-dom";
+import {Routes, Route } from "react-router-dom";
 
 // import { BrowserRouter as Route, Routes, HashRouter } from "react-router-dom";
 function App() {
   return (
     <div>
         <NavBar />
-        <HashRouter>     
           <div>
             <Routes>
               <Route exact path="/" element={<Home />} />
@@ -21,7 +20,6 @@ function App() {
               <Route exact path="/Contact" element={<Contact />} />
             </Routes>
           </div>
-      </HashRouter>
  
     </div>
   );
