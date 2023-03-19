@@ -1,5 +1,4 @@
 {
-  "homepage": "https://jackwilljudge.github.io/OceanCovers/",
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
@@ -26,8 +25,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",

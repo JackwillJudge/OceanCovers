@@ -1,5 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
 p {
   font-family: montserrat, sans-serif;
   font-weight: 200;
@@ -194,5 +199,101 @@ h4 {
   .contactContainer {
     margin: auto;
     width: 80%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .slider {
+   margin-top: 20px;
+   height: 50vh !important
+  }
+
+  .right-arrow {
+    color: rgb(51, 53, 53) !important
+  }
+
+  .left-arrow {
+    color: rgb(51, 53, 53) !important;
+  }
+}
+
+.slider {
+  margin-top: 40px;
+  position: relative;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+.slider-image {
+  max-width: 1000px;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  font-size: 3rem;
+  color: #000;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  font-size: 3rem;
+  color: #000;
+  cursor: pointer;
+  user-select: none;
+  z-index: 10;
+}
+
+.image {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.image.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .slider-image {
+    width: 600px;
+    height: 600px;
+  }
+  .right-arrow {
+    right: 32px;
+  }
+
+  .left-arrow {
+    left: 32px
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .slider-image {
+    width: 500px;
+    height: 450px;
+
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .slider-image {
+    width: 300px;
+    height: 250px;
+
   }
 }

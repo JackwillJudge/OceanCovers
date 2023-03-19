@@ -16,7 +16,8 @@ import slideNew1 from "../Contents/images/homeImages/SlideNew1.jpg"
 import slideNew2 from "../Contents/images/homeImages/SlideNew2.jpg"
 
 
-// import GoogleMaps from "simple-react-google-maps";
+
+import GoogleMaps from "simple-react-google-maps";
 
 const Home = () => {
   return (
@@ -26,13 +27,13 @@ const Home = () => {
           <img className="d-block w-100" src={Hero1} alt="First slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={Hero2} alt="Second slide" />
+          <img className="d-block w-100" src={slideNew1} alt="Second slide" />
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={Hero3} alt="Third slide" />
         </Carousel.Item>
         <Carousel.Item>
-          <img className="d-block w-100" src={slideNew1} alt="Fourth slide" />
+          <img className="d-block w-100" src={Hero2} alt="Fourth slide" />
         </Carousel.Item>
         <Carousel.Item>
           <img className="d-block w-100" src={slideNew2} alt="Fith slide" />
@@ -132,7 +133,7 @@ const Home = () => {
           <Col md={1}>{""}</Col>
           <Col lg={5} sm={12} className="bg-light">
             <Row>
-              {/* <GoogleMaps
+              <GoogleMaps
                 apiKey={"AIzaSyC8v1fxK-y0gxtAb9Mu_LH8YV9jyZ0k-TE"}
                 style={{
                   height: "300px",
@@ -147,7 +148,7 @@ const Home = () => {
                   lat: -36.748708768563795,
                   lng: 174.72913757116436,
                 }}
-              /> */}
+              />
             </Row>
             <Row>
               <Col sm={12} className="d-flex justify-content-center">
