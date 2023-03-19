@@ -24,7 +24,7 @@
   "scripts": {
     "eas-build-pre-install": "npm config set legacy-peer-deps true",
     "start": "react-scripts --openssl-legacy-provider start",
-    "build": "react-scripts --openssl-legacy-provider build",
+    "build": "react-scripts build",
     "predeploy": "npm run build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
