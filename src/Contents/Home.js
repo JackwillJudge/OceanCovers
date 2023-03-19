@@ -16,7 +16,6 @@ import slideNew1 from "../Contents/images/homeImages/SlideNew1.jpg"
 import slideNew2 from "../Contents/images/homeImages/SlideNew2.jpg"
 
 
-
 import GoogleMaps from "simple-react-google-maps";
 
 const Home = () => {

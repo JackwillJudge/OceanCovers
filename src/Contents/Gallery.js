@@ -20,23 +20,24 @@ const Gallery = () => {
           Gallery
         </h1>
       </Container>
-      <div style={{ marginBottom: "25px" }}>
-        <h2 className="text-center" style={{ marginBottom: "10px" }}>
+      <div style={{ marginBottom: "50px" }}>
+        <h2 className="text-center" style={{ marginBottom: "50px" }}>
           Upholstery
         </h2>
-        <ImageSlider images={upholsteryImages}/>
+        <ImageGallery items={upholsteryImages} />
       </div>
-      <div style={{ marginTop: "25px" }}>
-        <h2 className="text-center" style={{ marginBottom: "10px" }}>
+      {/* <hr /> */}
+      <div style={{ marginTop: "50px" }}>
+        <h2 className="text-center" style={{ marginBottom: "50px" }}>
           Covers
         </h2>
-        <ImageSlider images={coverImages}/>
+        <ImageGallery items={coverImages} />
       </div>
-      <div style={{ marginTop: "25px" }}>
-        <h2 className="text-center" style={{ marginBottom: "10px" }}>
+      <div style={{ marginTop: "50px" }}>
+        <h2 className="text-center" style={{ marginBottom: "50px" }}>
           Other
         </h2>
-        <ImageSlider images={otherImages}/>
+        <ImageGallery items={otherImages} />
       </div>
       <div className="text-center">
         <a href="/">
