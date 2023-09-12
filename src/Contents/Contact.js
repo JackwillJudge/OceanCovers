@@ -31,7 +31,7 @@ const Contact = () => {
       <div className="contactContainer">
         <form
           target="_blank"
-          action="https://formsubmit.co/8e0f9dfdc972554775158f6f88db9c24 "
+          action="https://submit-form.com/hajrupCd "
           method="POST"
         >
           <div>
